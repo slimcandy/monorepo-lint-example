@@ -16,8 +16,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "format": "prettier --write src/**/*.js",
+    "lint": "eslint --fix src/**/*.js",
+    "test": "npm run format && npm run lint"
   },
   "eslintConfig": {
     "extends": [
