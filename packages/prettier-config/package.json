@@ -1,0 +1,11 @@
+{
+  "name": "@my-local-scope/prettier-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}

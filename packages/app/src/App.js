@@ -1,6 +1,6 @@
-import { addOneWord, addTwoWords } from "@my-local-scope/strings";
-import { add42, minus42 } from "@my-local-scope/maths";
-import "./App.css";
+import { addOneWord, addTwoWords } from '@my-local-scope/strings'
+import { add42, minus42 } from '@my-local-scope/maths'
+import './App.css'
 
 function App() {
   return (
@@ -13,10 +13,10 @@ function App() {
       <p>minus42(100) = {minus42(100)}</p>
 
       <h2>Strings</h2>
-      <p>addOneWord('Test') = {addOneWord("Test")}</p>
-      <p>addTwoWords('Test') = {addTwoWords("Test")}</p>
+      <p>addOneWord('Test') = {addOneWord('Test')}</p>
+      <p>addTwoWords('Test') = {addTwoWords('Test')}</p>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

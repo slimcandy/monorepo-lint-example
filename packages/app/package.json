@@ -16,9 +16,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "format": "prettier --write src/**/*.js",
     "eject": "react-scripts eject"
   },
+  "prettier": "@my-local-scope/prettier-config",
   "eslintConfig": {
     "extends": [
       "react-app",
